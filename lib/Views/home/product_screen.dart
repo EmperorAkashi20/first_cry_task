@@ -109,12 +109,10 @@ class _ProductScreen extends ConsumerWidget {
                         borderRadius: BorderRadius.circular(5),
                         border: Border.all(color: Colors.black),
                       ),
-                      child: const Expanded(
-                        child: Center(
-                          child: Text(
-                            "Premium",
-                            style: TextStyle(fontSize: 10),
-                          ),
+                      child: const Center(
+                        child: Text(
+                          "Premium",
+                          style: TextStyle(fontSize: 10),
                         ),
                       ),
                     ),
